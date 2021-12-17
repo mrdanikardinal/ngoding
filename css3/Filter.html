@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Filter</title>
+    <style media="screen">
+    .gambar {
+      text-align: center;
+      filter:drop-shadow(5px 20px 5px black) blur(10px);
+  transition: 2s;
+    }
+    .gambar:hover {
+      filter:drop-shadow(5px 20px 5px black) blur(0px);
+
+
+
+    }
+    h1 {
+
+      filter:drop-shadow(5px 20px 5px black);
+
+    }
+    /*
+    blur (px);
+    brightness(angka |%);
+    saturate (angka |%);
+    grayscale (angka |%);
+    sepia(angka|%);
+    hue-rotate(deg);
+    invert(angka|%);
+    opacity(angka |%);
+    drop-shadow(sama seperti box-shadow);
+    */
+    .gbr {
+      text-align: center;
+      margin: 70px auto;
+      transition: 2s;
+      filter: sepia(100%);
+
+    }
+    .gbr:hover {
+      filter: sepia(0);
+    }
+
+    </style>
+  </head>
+  <body>
+    <h1>Lahihan Filter</h1>
+    <div class="gambar">
+      <img src="assets/img/hero.jpg" alt="gambar">
+    </div>
+  <div class="gbr">
+      <img src="assets/img/Twitter-Ribbon.png" alt="">
+  </div>
+
+
+  </body>
+</html>

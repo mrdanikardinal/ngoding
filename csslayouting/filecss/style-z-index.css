@@ -1,0 +1,52 @@
+body{
+	height: 2000px;
+}
+
+
+.kotak{
+	background-color: blue;
+	position: fixed;
+	top: 100px;
+	left: 100px;
+	right: 100px;
+	bottom: 100px;
+	opacity: 0.7;
+}
+h1 {
+	margin-top: 50px;
+}
+.close{
+	width: 30px;
+	height: 30px;
+	background-color: white;
+	border: 3px solid black;
+	border-radius: 50%;
+	position: absolute;
+	top: -15px;
+	right: -15px;
+}
+/*
+div {
+	width: 200px;
+	height: 200px;
+	position: absolute;
+
+}
+
+
+
+.satu {
+	background-color: green;
+	z-index: 1;
+}
+.dua {
+	top: 100px;
+	left: 100px;
+	background-color: gold;
+}
+.tiga {
+	background-color: royalblue;
+	top: 200px;
+	left: 200px;
+}
+*/

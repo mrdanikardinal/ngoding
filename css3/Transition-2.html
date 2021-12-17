@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="id" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Transition-2</title>
+    <style media="screen">
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    .kotak {
+      width: 100px;
+      height: 100px;
+      background-color: salmon;
+      text-align: center;
+      line-height: 100px;
+      margin: 5px 0;
+    }
+    .kotak1 {
+      transition:all 2s ease;
+    }
+    .kotak2 {
+      transition:all 2s ease-in;
+    }
+    .kotak3 {
+      transition:all 2s ease-out;
+    }
+    .kotak4 {
+      transition:all 2s ease-in-out;
+    }
+    .kotak5 {
+      transition:all 2s 2s cubic-bezier(0,-0.6, 1, 1.31);
+    }
+    .container{
+      width: 900px;
+      margin: 10px auto;
+      border: 5px solid red;
+
+    }
+    .container:hover .kotak{
+      transform: rotate(720deg);
+      margin-left: 800px;
+      background-color: blue;
+    }
+    </style>
+  </head>
+  <body>
+    <h1>Lahihan Transition-2</h1>
+    <div class="container">
+      <div class="kotak kotak1">ease</div>
+      <div class="kotak kotak2">ease-in</div>
+      <div class="kotak kotak3">ease-out</div>
+      <div class="kotak kotak4">ease-in-out</div>
+      <div class="kotak kotak5">linier</div>
+
+    </div>
+
+  </body>
+</html>
